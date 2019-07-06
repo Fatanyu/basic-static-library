@@ -3,4 +3,6 @@ project(basic_static_library)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(basic_static_library library.cpp library.h)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wall -Wextra")
+
+add_library(basic_static_library logging/library.cpp logging/library.h exceptions/Exception.cpp exceptions/Exception.hpp)
