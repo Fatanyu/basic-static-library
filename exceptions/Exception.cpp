@@ -4,7 +4,7 @@
 
 #include "Exception.hpp"
 
-const char *Fatanyu::Exception::what() const noexcept
+const char *kaktus::Exception::what() const noexcept
 {
     return exception::what();
 }

@@ -6,7 +6,7 @@
 
 #include <string>
 
-namespace Fatanyu
+namespace kaktus
 {
     class Exception : public std::exception
     {

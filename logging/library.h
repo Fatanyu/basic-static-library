@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Fatanyu
+namespace kaktus
 {
     void hello();
 }

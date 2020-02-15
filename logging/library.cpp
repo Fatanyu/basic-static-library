@@ -1,6 +1,6 @@
 #include "library.h"
 
-namespace Fatanyu
+namespace kaktus
 {
     void hello()
     {
